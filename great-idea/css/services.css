@@ -1,0 +1,138 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.services-header-img {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.services {
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+}
+
+.boxContainer {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid black;
+}
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.rowOne {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.rowTwo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.rowThree {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.design {
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userInterface {
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+    width: 45%;
+}
+
+.marketing {
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+    width: 45%;
+}
+
+.webDev {
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+    width: 45%;
+}
+
+.iosDev {
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+    width: 45%;
+}
+
+.androidDev {
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+    width: 45%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomLeft {
+    width: 48%;
+}
+
+.bottomRight {
+    width: 48%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        display: flex;
+        flex-direction: column;
+    }
+}
